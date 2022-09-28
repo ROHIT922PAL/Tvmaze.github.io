@@ -7,10 +7,10 @@ const HomePage = () => {
   const [radio, setradio] = useState("");
   const [input, setinput] = useState("");
   const [error, seterror] = useState(false);
-  // const [flag, setflag] = useState(false);
+  
 
   function SetRediobtn() {
-    // console.log(e.target.value);
+   
 
     if (radio === "Shows" && input) {
       return <Shows input={input} error={seterror} />;
@@ -36,7 +36,7 @@ const HomePage = () => {
                 Actor <br />
                 <input className="radio_btn" type="radio" value="Shows" id="shows" name="radio"
                   error={seterror}
-                />{" "}
+                />
                 Shows
               </div>
 
