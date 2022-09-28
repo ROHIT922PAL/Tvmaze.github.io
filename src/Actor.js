@@ -6,7 +6,7 @@ const Actor = (props) => {
   console.log(props.error);
   console.log(props.input);
 
-  // https://api.tvmaze.com/people/actorId/castcredits?embed=show
+  
 
   useEffect(() => {
     async function ApiCall() {
@@ -31,7 +31,7 @@ const Actor = (props) => {
       );
       const ActorData = await ActorApi.json();
       satActorData(ActorData);
-      // console.log(ActorData1[0].ActorData1.show.language);
+      
     }
     ApiCall();
   }, [props.input]);
