@@ -91,12 +91,12 @@
   width: 12.5rem;
   overflow: hidden;
 }
-@media(minn-width:327px) and (max-width:540px){
+@media(minn-width:330px) and (max-width:540px){
   html{
     font-size: 55%;
   }
 }
-@media(max-width:326px){
+@media(max-width:329px){
   html{
     font-size: 45%;
   }
