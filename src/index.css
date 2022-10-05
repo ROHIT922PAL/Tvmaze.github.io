@@ -18,15 +18,20 @@ code {
 }
 
 .rdo {
-  font-size: 30px;
-  margin: 20px;
+  font-size: 1.875rem;
+  margin: 1.25rem;
   display: flex;
   justify-content: center;
 }
 .radio_btn{
-  margin: 10px;
+  margin: 0.625rem;
 }
 #people {
   display: inline;
-  margin-top: 15px;
+  margin-top: 0.93rem;
+}
+@media(minn-width:0px) and (max-width:540px){
+  html{
+    font-size: 45%;
+  }
 }
