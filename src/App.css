@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15rem;
   pointer-events: none;
 }
 
@@ -11,12 +11,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 62.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(0.625rem + 0.75rem);
   color: white;
 }
 
@@ -31,38 +31,39 @@
 }
 .Homepage {
   width: 100vw;
-  height: 100vh;
+  height: 62.5rem;
   background: #5d595b;
   background-repeat: no-repeat;
-  background-size: 100vw 110vh;
+  background-size: 100vw 68.75rem;
   color: white;
   display: flex;
   justify-content: center;
 }
 .inputBox {
-  width: 80vw;
-  height: 51vh;
+  width: 100vw;
+  height: 21rem;
   /* background-color: #757072; */
-  margin-top: 6.5vh;
-  padding: 20px;
+  margin-top: 4.0625rem;
+  padding: 1.25rem;
 }
 .input {
-  width: 300px;
-  height: 40px;
-  font-size: 20px;
-  padding: 10px;
-  margin-top: 20px;
+  width: 18.75rem;
+  height: 2.5rem;
+  font-size: 1.125rem;
+  padding: 0.625rem;
+  margin-top: 1.25rem;
 }
+
 .Tvmaza {
-  font-size: 70px;
+  font-size: 4.35rem;
   font-weight: 900;
   /* background-color: #757072; */
 }
 .fa-tv {
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .SearchText {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .Tag {
   width: 100vw;
@@ -70,25 +71,35 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 1.875rem;
   background-color: #5d595b;
 }
 .items {
   border: 3px solid black;
-  margin: 20px;
+  margin: 1.25rem;
   background-color: #15202b;
   color: #66d9d1;
   overflow: hidden;
 }
 .DisCr {
-  width: 200px;
-  height: 49px;
+  width: 12.5rem;
+  height: 3.06rem;
   overflow-y: hidden;
   color: white;
 }
 .name {
-  width: 200px;
+  width: 12.5rem;
   overflow: hidden;
+}
+@media(minn-width:327px) and (max-width:540px){
+  html{
+    font-size: 55%;
+  }
+}
+@media(max-width:326px){
+  html{
+    font-size: 45%;
+  }
 }
 
 
