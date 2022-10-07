@@ -3,7 +3,7 @@ import Shows from "./Shows";
 import Actor from "./Actor";
 import "./index.css";
 
-const HomePage = () => {
+const Home = () => {
   const [radio, setradio] = useState("");
   const [input, setinput] = useState("");
   const [error, seterror] = useState(false);
@@ -60,4 +60,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
