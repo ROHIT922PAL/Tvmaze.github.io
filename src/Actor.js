@@ -52,7 +52,7 @@ const Actor = (props) => {
                   alt="img"
                 ></img>{" "}
                 <p className="name">{item._embedded.show.name}</p>
-                <p className="DisCr">{item._embedded.show.summary}</p>
+               
               </div>
             );
           })}
