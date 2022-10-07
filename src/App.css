@@ -79,14 +79,9 @@
   color: #66d9d1;
   overflow: hidden;
 }
-.DisCr {
-  width: 12.5rem;
-  height: 3.06rem;
-  overflow-y: hidden;
-  color: white;
-}
+
 .name {
-  width: 12.5rem;
+  width: 200px;
   overflow: hidden;
 }
 @media(minn-width:351px) and (max-width:540px){
