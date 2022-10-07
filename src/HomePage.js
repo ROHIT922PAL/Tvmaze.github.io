@@ -25,9 +25,7 @@ const HomePage = () => {
     <>
       <div className="Homepage">
         <div className="inputBox">
-          <div className="Tvmaza">
-            <i className="fa-solid fa-tv"></i>TVmaze
-          </div>
+          <div className="Tvmaza">TVmaze</div>
           <div className="SearchText">Search your favourite shows</div>
           <div>
             <form>
