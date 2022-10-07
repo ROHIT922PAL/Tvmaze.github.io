@@ -28,7 +28,7 @@ const Shows = (props) => {
                   alt="img"
                 ></img>{" "}
                 <p className="name">{item.show.name}</p>
-                <p className="DisCr">{item.show.summary}</p>
+                
               </div>
             );
           })}
